@@ -25,7 +25,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Live Site URL: [Blog Preview Card](https://blogcard-chrisdzasc.netlify.app/)
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/blog-preview-card---mobile-first-Jim3ZoMqvM)
 
 
 ## My process
