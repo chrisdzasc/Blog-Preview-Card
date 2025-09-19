@@ -38,20 +38,24 @@ body {
 }
 
 .card-mobile {
-    width: 32.7rem;
-    height: 50.1rem;
+    width: 90%;
+    max-width: 32.7rem;
+    height: auto;
     padding: 2.4rem;
     background-color: var(--white);
     border-radius: 2rem;
-    opacity: 100%;
     border: 1px solid var(--gray950);
-    box-shadow: var(--gray950) 8px 8px
+    box-shadow: var(--gray950) 8px 8px;
+    box-sizing: border-box;
 }
 
-@media screen and (min-width: 1440px) {
+/* Media query for Desktop -> 1440px / 16 = 90rem */
+@media screen and (min-width: 90rem) {
     .card-mobile {
-        width: 38.4rem;
-        height: 52.2rem;
+        width: 90%;
+        max-width: 38.4rem;
+        height: 90%;
+        max-height: 52.2rem;
         display: flex;
         flex-direction: column;
     }
@@ -64,7 +68,7 @@ body {
     overflow: hidden;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .div-image {
         width: 33.6rem;
     }
@@ -83,7 +87,7 @@ body {
     display: grid;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .content {
         width: 33.6rem;
         height: 19.4rem;
@@ -98,7 +102,7 @@ body {
     padding: .4rem 1.2rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .category {
         width: 8.2rem;
         height: 2.9rem;
@@ -106,28 +110,28 @@ body {
 }
 
 .learning {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-weight: 800;
     font-size: 1.2rem;
     line-height: 150%;
     color: var(--gray950);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .learning {
         font-size: 1.4rem;
     }
 }
 
 .publish-date {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 150%;
     color: var(--gray950);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .publish-date {
         font-size: 1.4rem;
         padding-top: 1.2rem;
@@ -135,14 +139,14 @@ body {
 }
 
 .title {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-weight: 800;
     font-size: 2rem;
     line-height: 150%;
     color: var(--gray950);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .title {
         font-size: 2.4rem;
         padding-top: 1.2rem;
@@ -159,14 +163,14 @@ body {
 }
 
 .description {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 150%;
     color: var(--gray500);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .description{
         font-size: 1.6rem;
         padding-top: 1.2rem;
@@ -182,7 +186,7 @@ body {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .author{
         margin-top: auto;
     }
@@ -202,7 +206,7 @@ body {
 }
 
 .authorname {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-weight: 800;
     font-size: 1.4rem;
     color: var(--gray950);
