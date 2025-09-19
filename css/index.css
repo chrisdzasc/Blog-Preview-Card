@@ -61,7 +61,7 @@ body {
     }
 }
 
-.div-image {
+.blog-image-figure {
     width: 27.9rem;
     height: 20rem;
     border-radius: 1rem;
@@ -69,7 +69,7 @@ body {
 }
 
 @media screen and (min-width: 90rem) {
-    .div-image {
+    .blog-image-figure {
         width: 33.6rem;
     }
 }
